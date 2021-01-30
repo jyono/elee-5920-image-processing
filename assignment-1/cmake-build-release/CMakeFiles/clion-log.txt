@@ -1,5 +1,0 @@
-/home/jordan/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/203.7148.70/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/jordan/jordydev/elee-5920-image-processing/assignment-1
--- /home/jordan/extern/include
--- Configuring done
--- Generating done
--- Build files have been written to: /home/jordan/jordydev/elee-5920-image-processing/assignment-1/cmake-build-release

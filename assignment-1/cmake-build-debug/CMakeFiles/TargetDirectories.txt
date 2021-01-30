@@ -1,3 +1,0 @@
-/home/jordan/jordydev/elee-5920-image-processing/assignment-1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jordan/jordydev/elee-5920-image-processing/assignment-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jordan/jordydev/elee-5920-image-processing/assignment-1/cmake-build-debug/CMakeFiles/part1.dir
