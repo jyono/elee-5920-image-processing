@@ -1,0 +1,31 @@
+% part1
+% colormap('gray')
+% mesh
+%z = 0:255;
+%Z = meshgrid(z);
+%Z = floor(Z/8);
+%mesh(Z);
+
+% surf
+%z = 0:255;
+%[X,Y] = meshgrid(x,y);
+%Z = meshgrid(z);
+%Z = floor(Z/8);
+%surf(Z, 'EdgeColor','none');
+
+% image
+%C = meshgrid(c);
+%C = floor(C/8);
+%imagesc(C, 'CDataMapping','scaled' )
+
+% part2
+r = 8;
+x=0:255;
+y=x; 
+[X,Y] = meshgrid(x,y);
+Z = exp(-((X-127).^2+(Y-127).^2)/(2*(8.^2)));
+
+
+mesh(X,Y,Z)
+xlabel('x (ph)'), ylabel('y (ph)');
+% set(gca,'ydir','reverse');

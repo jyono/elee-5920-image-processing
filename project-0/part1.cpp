@@ -1,6 +1,7 @@
 #include <iostream>
 #include "mexAdapter.hpp"
-
+// Boiler Plate and working example of matlab MEX C++/engine APIs
+// This is no the same
 class MexFunction : public matlab::mex::Function {
     void operator()(matlab::mex::ArgumentList outputs, matlab::mex::ArgumentList inputs) override {
         // Get instance of Matlab Engine API. Equivalent to the engine API's startEngine();
