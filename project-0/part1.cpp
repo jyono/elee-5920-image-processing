@@ -4,6 +4,7 @@
 // This is no the same
 class MexFunction : public matlab::mex::Function {
     void operator()(matlab::mex::ArgumentList outputs, matlab::mex::ArgumentList inputs) override {
+        std::cout << "HEY";
         // Get instance of Matlab Engine API. Equivalent to the engine API's startEngine();
         const std::shared_ptr<matlab::engine::MATLABEngine> &matlabPtr = getEngine();
 
